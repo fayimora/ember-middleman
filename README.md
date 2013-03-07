@@ -7,11 +7,11 @@
 		javascripts/
 			application.js
 			main.js
-			controllers/  foo_controller.js
-			models/       foo.js
-			routes/  			foo_route.js
-			views/        foo_view.js
-			templates/    foo.handlebars
+			controllers/
+			models/
+			routes/
+			views/
+			templates/
 	vendor/
 		stylesheets/
 		javascripts/

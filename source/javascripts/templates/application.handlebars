@@ -3,15 +3,13 @@
     {{view Ember.TextField valueBinding="firstName"}}
     <br><br>
     <h2>Hello my name is {{firstName}}, {{lastName}}</h2>
-    <p>
-      this is just a basic site...
-    </p>
-    <a href="#" {{action showMessage}} class="btn btn-primary btn-large">{{buttonText}}</a>
-    <p>
-    <br>
+    <p> This is just a basic <a target="_blank" href="emberjs.com">Ember.js</a> site...  </p>
     <i class="icon-flag icon-4x pull-left icon-border"></i><br>
-    <p><i class="icon-camera-retro icon-4x"></i> icon-camera-retro</p>
-    <br>
-    <i class="icon-spinner icon-large icon-spin"></i>
+    <a href="#" {{action showMessage}} class="btn btn-primary btn-large">{{buttonText}}</a>
+    <br />
+  </div>
+
+  <div class="hero-unit">
+    {{outlet}}
   </div>
 </div> <!-- /container -->

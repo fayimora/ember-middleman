@@ -5,4 +5,6 @@
 //= require_tree ./templates
 //= require_tree ./views
 
-window.App = Ember.Application.create();
+window.App = Ember.Application.create({
+  LOG_TRANSITIONS: true
+});

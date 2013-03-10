@@ -1,8 +1,11 @@
+<!-- {{view Bootstrap.Pager contentBinding="App.EntriesController.content" }} -->
+<br />
 Add Entry: {{view Ember.TextField valueBinding="newEntry" action="addEntry"}}
 <a href="#" {{action clearList}} class="btn btn-danger btn-small">Clear List</a>
 <br />
 {{#unless controller.hasContent}}
-  <i class="icon-spinner icon-large icon-spin"></i>
+  <!-- <i class="icon&#45;spinner icon&#45;large icon&#45;spin"></i> -->
+  <h3>No entries available!</h3>
 {{else}}
   {{partial entriesList}}
 {{/unless}}
